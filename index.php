@@ -19,16 +19,6 @@ match ($act) {
     // Trang chủ
     '/'=>(new UserController())->danhSachSinhVien(),
 
-    'form-add-user' =>(new UserController())->formAddUser(),
-
-    'post-add-user' =>(new UserController())->postAddUser(),
-
-    'form-update-user' =>(new UserController())->formUpdateUser(),
-
-    'post-update-user' =>(new UserController())->postUpdateUser(),
-
-    'delete-user' =>(new UserController())->deleteUser(),
-    
 
     
 };
